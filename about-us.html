@@ -1,0 +1,1231 @@
+<html lang="en">
+	<script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script>
+	<script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script>
+	<script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/svg+xml" href="/img/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hostingard</title>
+		<script type="module" crossorigin="" src="/assets/index-CYfanrEm.js"></script>
+		<link rel="stylesheet" crossorigin="" href="/assets/index-LQwjvhTu.css">
+		<link rel="stylesheet" href="./assets/style.css">
+		<script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/../executers/vi-tr.js"></script>
+	</head>
+	<body bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJMSU5LRURJTiI6ImRpc2FibGVkIiwiQ09ORklHIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjIuMC4xNyIsInNjb3JlIjoyMDAxN31d" __processed_10ae22c4-2c49-4f3a-9e31-19f50cec246a__="true" class="">
+		<div id="root" bis_skin_checked="1">
+			<header>
+				<div class="" bis_skin_checked="1">
+					<div class="navbar-overlay bg-body bg-opacity-5 navbar-1" bis_skin_checked="1">
+						<nav class="navbar navbar-expand-lg py-5 py-lg-0">
+							<div class="container" bis_skin_checked="1">
+								<a class="navbar_logo" href="/">
+									<p class="logo_text black">Nuage Paris</p>
+								</a>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryMenu" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+								<div class="collapse navbar-collapse" id="primaryMenu" bis_skin_checked="1">
+									<ul class="navbar-nav align-items-lg-center gap-lg-3 ms-auto ">
+										<li class="nav-item contain-sub-1 contain-sub-1--alter">
+											<a class="nav-link fw-medium " href="./index.html">Home</a>
+											
+										</li>
+										<li class="nav-item contain-sub-1">
+											<a class="nav-link fw-medium active" href="#">Hosting</a>
+											<ul class="contain-sub-1__content contain-sub-1__content-xl list-unstyled d-block">
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/wp-hosting.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-wp-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2">
+																<span class="d-inline-block">WordPress Hosting</span>
+																<span class="flex-shrink-0 badge bg-primary-subtle text-primary-emphasis fw-bold py-1">New</span>
+															</span>
+															<span class="contain-sub-1__description">WordPress hosting built for performance and managed</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/shared-hosting.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-shared-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Shared Hosting</span></span>
+															<span class="contain-sub-1__description">Shared hosting is a type of web hosting a single physical</span>
+														</span>
+													</a>
+												</li>
+												
+					
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/web-hosting-new.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-web-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2">
+																<span class="d-inline-block">Web Hosting</span>
+																<span class="flex-shrink-0 badge bg-primary-subtle text-primary-emphasis fw-bold py-1">New</span>
+															</span>
+															<span class="contain-sub-1__description">Web hosting is a type of web hosting a single physical</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/ecommerce-hosting.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-shared-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Ecommerce Hosting</span></span>
+															<span class="contain-sub-1__description">Ecommerce hosting is a type of web hosting a single physical</span>
+														</span>
+													</a>
+												</li>
+											
+											</ul>
+										</li>
+										<li class="nav-item contain-sub-1">
+											<a class="nav-link fw-medium " href="#">Servers</a>
+											<ul class="contain-sub-1__content contain-sub-1__content-xl list-unstyled ">
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/vps-hosting.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-vps-server.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">VPS Server</span>
+															<span class="contain-sub-1__description">Virtual machine that provides virtualized server resources</span>
+														</span>
+													</a>
+												</li>
+												
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/dedicated-server.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-dedicated-server.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Dedicated Server</span>
+															<span class="contain-sub-1__description">virtual servers running in a cloud computing environment</span>
+														</span>
+													</a>
+												</li>
+											</ul>
+										</li>
+										
+										<li class="nav-item contain-sub-1">
+											<a class="nav-link fw-medium " href="#">Company</a>
+											<ul class="contain-sub-1__content contain-sub-1__content-xl list-unstyled ">
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/about-us.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-about.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">About Company</span>
+															<span class="contain-sub-1__description">WordPress hosting is a specialized service tailored</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/contact.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-game-server.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Contact Page</span>
+															<span class="contain-sub-1__description">Dedicated hosting is premium web hosting</span>
+														</span>
+													</a>
+												</li>
+												
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/terms.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-pricing-icon.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Terms &amp; Conditon</span>
+															<span class="contain-sub-1__description">Terms and condition</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/privacy.html">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-pricing-icon.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Privacy Policy</span>
+															<span class="contain-sub-1__description">privacy policy.</span>
+														</span>
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item"><a class="link btn btn-sm btn-primary hover:bg-dark hover:border-dark fw-medium rounded-1" href="/home.html">Get Started</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<main class="bg-secondary">
+				<div class="about-banner pb-120 bg-dark" bis_skin_checked="1">
+					<div class="container" bis_skin_checked="1">
+						<div class="row g-4 align-items-center align-items-xxl-end" bis_skin_checked="1">
+							<div class="col-xl-7" bis_skin_checked="1">
+								<div class="d-flex align-items-center gap-2" bis_skin_checked="1">
+									<div class="w-3 h-3 rounded-circle bg-primary flex-shrink-0" bis_skin_checked="1"></div>
+									<span class="d-block fw-semibold mb-0 text-primary">About Our Hosting Company</span>
+								</div>
+								<h1 class="mb-6 text-white">We believe there is better way to work with technology</h1>
+								<p class="text-white max-text-60 mb-8 text-opacity-75">
+									We specialize in providing high-bandwidth dedicated servers with unparalleled connectivity. Backed by a robust network, abundant server options, and a we’re here to cater you reliable service you can truly count on.
+								</p>
+								<div class="d-flex align-items-center flex-wrap gap-4" bis_skin_checked="1">
+									<a class="btn btn-primary btn-arrow btn-lg fs-14 fw-semibold rounded" href="/contact" bis_skin_checked="1">
+										<span class="btn-arrow__text">
+											Sign up - Free Trial
+											<span class="btn-arrow__icon"><i class="las la-arrow-right"></i></span>
+										</span>
+									</a>
+									<a class="btn btn-light btn-arrow btn-lg fs-14 fw-semibold rounded transition" href="/server-location" bis_skin_checked="1">
+										<span class="btn-arrow__text">
+											Explore Product
+											<span class="btn-arrow__icon"><i class="las la-arrow-right"></i></span>
+										</span>
+									</a>
+								</div>
+								<div class="pt-80" bis_skin_checked="1">
+									<p class="text-white fw-bold">
+										See how over 7,700+ Customers 
+										<span class="text-primary">Help the world work</span>
+									</p>
+									<div class="d-flex align-items-center gap-6 flex-wrap flex-lg-nowrap" bis_skin_checked="1">
+										<a href="#" class="d-inline-block"><img src="/img/hero-logo-1.png" alt="image" class="img-fluid transition opacity-50 brand-img"></a>
+										<a href="#" class="d-inline-block"><img src="/img/hero-logo-2.png" alt="image" class="img-fluid transition opacity-50 brand-img"></a>
+										<a href="#" class="d-inline-block"><img src="/img/hero-logo-3.png" alt="image" class="img-fluid transition opacity-50 brand-img"></a>
+										<a href="#" class="d-inline-block"><img src="/img/hero-logo-4.png" alt="image" class="img-fluid transition opacity-50 brand-img"></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-5" bis_skin_checked="1">
+								<div class="about-banner__img" bis_skin_checked="1">
+									<img src="/img/about-banner-img.png" alt="image" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pt-120 pb-120" bis_skin_checked="1">
+					<div class="container" bis_skin_checked="1">
+						<div class="row g-4" bis_skin_checked="1">
+							<div class="col-lg-4" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<img src="/img/our-story-img-1.png" alt="imge" class="img-fluid">
+							</div>
+							<div class="col-lg-8" bis_skin_checked="1">
+								<h2 class="h5 d-inline-flex align-items-center gap-2 mb-4 text-primary" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+									<span class="d-inline-block">Our Story</span>
+									<span class="d-inline-block w-15 h-1 bg-primary"></span>
+								</h2>
+								<p class="mb-6 fw-medium" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+									Hostcity was founded in 2012 to meet the needs of developers who were looking for simple, affordable cloud computing solutions. Our first product, the Droplet, is an easy-to-use virtual machine that can be spun up in just minutes. Over the past decade, Hostcity has evolved to serve both software developers and the small-to-medium-sized businesses that are at the heart of innovation today.
+								</p>
+								<p class="mb-6 fw-medium" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+									Today, Hostcity is proud to offer solutions that cater to the needs of those just learning to code, builders getting started on their big idea, and scalers, businesses that are growing. Kubernetes, that are tailored to the needs of startups and small businesses.
+								</p>
+								<div class="row g-4 justify-content-center" bis_skin_checked="1">
+									<div class="col-md-6 col-xl-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<div class="card" bis_skin_checked="1">
+											<div class="card-body" bis_skin_checked="1">
+												<div class="hstack gap-2" bis_skin_checked="1">
+													<span class="d-inline-block flex-shrink-0"><img src="/img/award-1.png" alt="image" class="img-fluid"></span>
+													<h6 class="mb-0 flex-grow-1 fs-16">
+														Leader/High Performer Badges
+													</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-xl-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<div class="card" bis_skin_checked="1">
+											<div class="card-body" bis_skin_checked="1">
+												<div class="hstack gap-2" bis_skin_checked="1">
+													<span class="d-inline-block flex-shrink-0"><img src="/img/award-2.png" alt="image" class="img-fluid"></span>
+													<h6 class="mb-0 flex-grow-1 fs-16">
+														Best Usability Business Badges
+													</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-xl-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<div class="card" bis_skin_checked="1">
+											<div class="card-body" bis_skin_checked="1">
+												<div class="hstack gap-2" bis_skin_checked="1">
+													<span class="d-inline-block flex-shrink-0"><img src="/img/award-3.png" alt="image" class="img-fluid"></span>
+													<h6 class="mb-0 flex-grow-1 fs-16">
+														High Performer MID Market Badges
+													</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="story-timeline-section position-relative z-1 bg-dark pt-120 pb-60">
+					<div class="pb-60" bis_skin_checked="1">
+						<div class="container" bis_skin_checked="1">
+							<div class="row justify-content-center" bis_skin_checked="1">
+								<div class="col-md-10 col-lg-8 col-xl-7" bis_skin_checked="1">
+									<h2 class="mb-4 text-center text-white">Grow Up Our History</h2>
+									<p class="mb-0 text-white text-center mx-auto max-text-60 text-opacity-75">
+										Our global data centers mean you can host precisely where you need.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container" bis_skin_checked="1">
+						<div class="row" bis_skin_checked="1">
+							<div class="col-12" bis_skin_checked="1">
+								<div class="swiper timeline-slider-nav" bis_skin_checked="1">
+									<div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-free-mode swiper-watch-progress timeline-slider-nav swiper-thumbs" bis_skin_checked="1">
+										<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1395px, 0px, 0px);" bis_skin_checked="1">
+											<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2018
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2020
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2022
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="7" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2024
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-visible swiper-slide-active swiper-slide-thumb-active" data-swiper-slide-index="0" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2011
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-visible swiper-slide-next" data-swiper-slide-index="1" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2012
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-visible" data-swiper-slide-index="2" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2014
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-visible" data-swiper-slide-index="3" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2016
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide" data-swiper-slide-index="4" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2018
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide" data-swiper-slide-index="5" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2020
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide" data-swiper-slide-index="6" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2022
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="7" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2024
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-thumb-active" data-swiper-slide-index="0" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2011
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2012
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2014
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 279px;" bis_skin_checked="1">
+												<div class="story-timeline text-center" bis_skin_checked="1">
+													<div class="story-timeline__time" bis_skin_checked="1">
+														2016
+													</div>
+													<div class="story-timeline__dot" bis_skin_checked="1"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<button class="timeline-slider-nav__prev"><i class="las la-angle-left"></i></button>
+									<button class="timeline-slider-nav__next"><i class="las la-angle-right"></i></button>
+								</div>
+								<div class="swiper timeline-slider-content" bis_skin_checked="1">
+									<div class="swiper swiper-wrapper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" bis_skin_checked="1">
+										<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1116px, 0px, 0px);" bis_skin_checked="1">
+											<div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="3" style="width: 1116px;" bis_skin_checked="1">
+												<div class="p-4 p-md-12 p-xl-15" bis_skin_checked="1">
+													<h5 class="mb-4 text-white">
+														Linux Hosting Launch
+													</h5>
+													<p class="mb-0 text-white max-text-60 text-opacity-75">
+														Hostcity was founded in 2012 to meet the needs of developers who were looking for simple, affordable cloud computing solutions.
+													</p>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 1116px;" bis_skin_checked="1">
+												<div class="p-4 p-md-12 p-xl-15" bis_skin_checked="1">
+													<h5 class="mb-4 text-white">
+														VPS Hosting Launch
+													</h5>
+													<p class="mb-0 text-white max-text-60 text-opacity-75">
+														Hostcity was founded in 2012 to meet the needs of developers who were looking for simple, affordable cloud computing solutions.
+													</p>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 1116px;" bis_skin_checked="1">
+												<div class="p-4 p-md-12 p-xl-15" bis_skin_checked="1">
+													<h5 class="mb-4 text-white">
+														Wordpress Hosting Launch
+													</h5>
+													<p class="mb-0 text-white max-text-60 text-opacity-75">
+														Hostcity was founded in 2012 to meet the needs of developers who were looking for simple, affordable cloud computing solutions.
+													</p>
+												</div>
+											</div>
+											<div class="swiper-slide" data-swiper-slide-index="2" style="width: 1116px;" bis_skin_checked="1">
+												<div class="p-4 p-md-12 p-xl-15" bis_skin_checked="1">
+													<h5 class="mb-4 text-white">
+														Shared Hosting Launch
+													</h5>
+													<p class="mb-0 text-white max-text-60 text-opacity-75">
+														Hostcity was founded in 2012 to meet the needs of developers who were looking for simple, affordable cloud computing solutions.
+													</p>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="width: 1116px;" bis_skin_checked="1">
+												<div class="p-4 p-md-12 p-xl-15" bis_skin_checked="1">
+													<h5 class="mb-4 text-white">
+														Linux Hosting Launch
+													</h5>
+													<p class="mb-0 text-white max-text-60 text-opacity-75">
+														Hostcity was founded in 2012 to meet the needs of developers who were looking for simple, affordable cloud computing solutions.
+													</p>
+												</div>
+											</div>
+											<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 1116px;" bis_skin_checked="1">
+												<div class="p-4 p-md-12 p-xl-15" bis_skin_checked="1">
+													<h5 class="mb-4 text-white">
+														VPS Hosting Launch
+													</h5>
+													<p class="mb-0 text-white max-text-60 text-opacity-75">
+														Hostcity was founded in 2012 to meet the needs of developers who were looking for simple, affordable cloud computing solutions.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="bg-dark pt-60 pb-120" bis_skin_checked="1">
+					<div class="container" bis_skin_checked="1">
+						<div class="row g-4" bis_skin_checked="1">
+							<div class="col-xl-10 col-xxl-8" bis_skin_checked="1">
+								<h2 class="mb-4 text-white" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Boosting Data Delivery&nbsp;efficiency for tech &amp; Media Companies</h2>
+							</div>
+							<div class="col-12" bis_skin_checked="1">
+								<div class="row g-4" bis_skin_checked="1">
+									<div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<h6 class="mb-6 fw-semibold text-white">
+											New servers in production 
+											<br>
+											each month
+										</h6>
+										<span class="h1 text-white">290+</span>
+									</div>
+									<div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<h6 class="mb-6 fw-semibold text-white">
+											Low latency network with 
+											<br>
+											zero packet loss
+										</h6>
+										<span class="h1 text-white">150+</span>
+									</div>
+									<div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<h6 class="mb-6 fw-semibold text-white">
+											Data center locations on 
+											<br>
+											6&nbsp;continents
+										</h6>
+										<span class="h1 text-white">49+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="pt-120 pb-120">
+					<div class="pb-60" bis_skin_checked="1">
+						<div class="container" bis_skin_checked="1">
+							<div class="row" bis_skin_checked="1">
+								<div class="col-12" bis_skin_checked="1">
+									<div class="text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<div class="data-center" bis_skin_checked="1">
+											<img class="img-fluid data-center__map" src="/img/shape/map-img-1.png" alt="image">
+											<div class="data-center__location data-center__location-1 active " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-5.png" alt="London, UK" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																London, UK
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-2  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-12.png" alt="India" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																India
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-3  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-7.png" alt="Russia" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																Russia
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-4  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-8.png" alt="New York" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																New York
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-5  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-9.png" alt="Brazil" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																Brazil
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-6  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-10.png" alt="Hongkong" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																Hongkong
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-7  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-11.png" alt="Bangladesh" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																Bangladesh
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="pt-60 pb-60">
+					<div class="container" bis_skin_checked="1">
+						<div class="row" bis_skin_checked="1">
+							<div class="col-lg-6" bis_skin_checked="1">
+								<h2 data-sal="slide-up" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease-in-out-sine">We Love our Customers &amp; They Love us too</h2>
+							</div>
+						</div>
+						<div class="mt-8 position-relative" data-sal="fade" data-sal-duration="1500" data-sal-delay="200" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+							<div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events feedback-slider swiper-backface-hidden" bis_skin_checked="1">
+								<div class="swiper-wrapper" style="transform: translate3d(-1719px, 0px, 0px); transition-duration: 0ms;" bis_skin_checked="1">
+									<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 543px; margin-right: 30px;" bis_skin_checked="1">
+										<div class="bg-white p-7 shadow-sm rounded-3" bis_skin_checked="1">
+											<div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5" bis_skin_checked="1">
+												<img src="/img/feedback-brand-3.png" alt="brand" class="img-fluid">
+												<img src="/img/shape/feedback-quate.png" alt="quote" class="img-fluid">
+											</div>
+											<h6 class="mt-5">
+												The Most Creative Designer Highly Recommended.
+											</h6>
+											<p class="mt-3">
+												The best thing we love about Hostcity is it does two-way sync with Google Apps. It has helped us to better organize everything on track.
+											</p>
+											<div class="d-flex align-items-center gap-4 mt-7" bis_skin_checked="1">
+												<img src="/img/user-img-4.png" alt="user" class="img-fluid">
+												<div bis_skin_checked="1">
+													<h6 class="fs-16 mb-0">
+														Lola Ross
+													</h6>
+													<small>
+														Digital Marketing Director
+													</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="3" style="width: 543px; margin-right: 30px;" bis_skin_checked="1">
+										<div class="bg-white p-7 shadow-sm rounded-3" bis_skin_checked="1">
+											<div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5" bis_skin_checked="1">
+												<img src="/img/feedback-brand-3.png" alt="brand" class="img-fluid">
+												<img src="/img/shape/feedback-quate.png" alt="quote" class="img-fluid">
+											</div>
+											<h6 class="mt-5">
+												The Most Creative Designer Highly Recommended.
+											</h6>
+											<p class="mt-3">
+												The best thing we love about Hostcity is it does two-way sync with Google Apps. It has helped us to better organize everything on track.
+											</p>
+											<div class="d-flex align-items-center gap-4 mt-7" bis_skin_checked="1">
+												<img src="/img/user-img-5.png" alt="user" class="img-fluid">
+												<div bis_skin_checked="1">
+													<h6 class="fs-16 mb-0">
+														Lola Ross
+													</h6>
+													<small>
+														Digital Marketing Director
+													</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 543px; margin-right: 30px;" bis_skin_checked="1">
+										<div class="bg-white p-7 shadow-sm rounded-3" bis_skin_checked="1">
+											<div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5" bis_skin_checked="1">
+												<img src="/img/feedback-brand-1.png" alt="brand" class="img-fluid">
+												<img src="/img/shape/feedback-quate.png" alt="quote" class="img-fluid">
+											</div>
+											<h6 class="mt-5">
+												The Most Creative Designer Highly Recommended.
+											</h6>
+											<p class="mt-3">
+												The best thing we love about Hostcity is it does two-way sync with Google Apps. It has helped us to better organize everything on track.
+											</p>
+											<div class="d-flex align-items-center gap-4 mt-7" bis_skin_checked="1">
+												<img src="/img/user-img-1.png" alt="user" class="img-fluid">
+												<div bis_skin_checked="1">
+													<h6 class="fs-16 mb-0">
+														Lola Ross
+													</h6>
+													<small>
+														Digital Marketing Director
+													</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 543px; margin-right: 30px;" bis_skin_checked="1">
+										<div class="bg-white p-7 shadow-sm rounded-3" bis_skin_checked="1">
+											<div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5" bis_skin_checked="1">
+												<img src="/img/feedback-brand-2.png" alt="brand" class="img-fluid">
+												<img src="/img/shape/feedback-quate.png" alt="quote" class="img-fluid">
+											</div>
+											<h6 class="mt-5">
+												The Most Creative Designer Highly Recommended.
+											</h6>
+											<p class="mt-3">
+												The best thing we love about Hostcity is it does two-way sync with Google Apps. It has helped us to better organize everything on track.
+											</p>
+											<div class="d-flex align-items-center gap-4 mt-7" bis_skin_checked="1">
+												<img src="/img/user-img-3.png" alt="user" class="img-fluid">
+												<div bis_skin_checked="1">
+													<h6 class="fs-16 mb-0">
+														Lola Ross
+													</h6>
+													<small>
+														Digital Marketing Director
+													</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide" data-swiper-slide-index="2" style="width: 543px; margin-right: 30px;" bis_skin_checked="1">
+										<div class="bg-white p-7 shadow-sm rounded-3" bis_skin_checked="1">
+											<div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5" bis_skin_checked="1">
+												<img src="/img/feedback-brand-3.png" alt="brand" class="img-fluid">
+												<img src="/img/shape/feedback-quate.png" alt="quote" class="img-fluid">
+											</div>
+											<h6 class="mt-5">
+												The Most Creative Designer Highly Recommended.
+											</h6>
+											<p class="mt-3">
+												The best thing we love about Hostcity is it does two-way sync with Google Apps. It has helped us to better organize everything on track.
+											</p>
+											<div class="d-flex align-items-center gap-4 mt-7" bis_skin_checked="1">
+												<img src="/img/user-img-4.png" alt="user" class="img-fluid">
+												<div bis_skin_checked="1">
+													<h6 class="fs-16 mb-0">
+														Lola Ross
+													</h6>
+													<small>
+														Digital Marketing Director
+													</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="width: 543px; margin-right: 30px;" bis_skin_checked="1">
+										<div class="bg-white p-7 shadow-sm rounded-3" bis_skin_checked="1">
+											<div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5" bis_skin_checked="1">
+												<img src="/img/feedback-brand-3.png" alt="brand" class="img-fluid">
+												<img src="/img/shape/feedback-quate.png" alt="quote" class="img-fluid">
+											</div>
+											<h6 class="mt-5">
+												The Most Creative Designer Highly Recommended.
+											</h6>
+											<p class="mt-3">
+												The best thing we love about Hostcity is it does two-way sync with Google Apps. It has helped us to better organize everything on track.
+											</p>
+											<div class="d-flex align-items-center gap-4 mt-7" bis_skin_checked="1">
+												<img src="/img/user-img-5.png" alt="user" class="img-fluid">
+												<div bis_skin_checked="1">
+													<h6 class="fs-16 mb-0">
+														Lola Ross
+													</h6>
+													<small>
+														Digital Marketing Director
+													</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 543px; margin-right: 30px;" bis_skin_checked="1">
+										<div class="bg-white p-7 shadow-sm rounded-3" bis_skin_checked="1">
+											<div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5" bis_skin_checked="1">
+												<img src="/img/feedback-brand-1.png" alt="brand" class="img-fluid">
+												<img src="/img/shape/feedback-quate.png" alt="quote" class="img-fluid">
+											</div>
+											<h6 class="mt-5">
+												The Most Creative Designer Highly Recommended.
+											</h6>
+											<p class="mt-3">
+												The best thing we love about Hostcity is it does two-way sync with Google Apps. It has helped us to better organize everything on track.
+											</p>
+											<div class="d-flex align-items-center gap-4 mt-7" bis_skin_checked="1">
+												<img src="/img/user-img-1.png" alt="user" class="img-fluid">
+												<div bis_skin_checked="1">
+													<h6 class="fs-16 mb-0">
+														Lola Ross
+													</h6>
+													<small>
+														Digital Marketing Director
+													</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 543px; margin-right: 30px;" bis_skin_checked="1">
+										<div class="bg-white p-7 shadow-sm rounded-3" bis_skin_checked="1">
+											<div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5" bis_skin_checked="1">
+												<img src="/img/feedback-brand-2.png" alt="brand" class="img-fluid">
+												<img src="/img/shape/feedback-quate.png" alt="quote" class="img-fluid">
+											</div>
+											<h6 class="mt-5">
+												The Most Creative Designer Highly Recommended.
+											</h6>
+											<p class="mt-3">
+												The best thing we love about Hostcity is it does two-way sync with Google Apps. It has helped us to better organize everything on track.
+											</p>
+											<div class="d-flex align-items-center gap-4 mt-7" bis_skin_checked="1">
+												<img src="/img/user-img-3.png" alt="user" class="img-fluid">
+												<div bis_skin_checked="1">
+													<h6 class="fs-16 mb-0">
+														Lola Ross
+													</h6>
+													<small>
+														Digital Marketing Director
+													</small>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="feedback-navs d-flex align-items-center justify-content-between position-relative w-100 z-2 d-none d-md-flex" bis_skin_checked="1">
+								<span class="feedback-button-prev w-10 h-10 rounded-circle bg-dark d-flex align-items-center justify-content-center text-white"><i class="las la-arrow-left"></i></span>
+								<span class="feedback-button-next w-10 h-10 rounded-circle bg-dark d-flex align-items-center justify-content-center text-white"><i class="las la-arrow-right"></i></span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="pt-60 pb-120" bis_skin_checked="1">
+					<div class="pb-60" bis_skin_checked="1">
+						<div class="container" bis_skin_checked="1">
+							<div class="row justify-content-center" bis_skin_checked="1">
+								<div class="col-md-10 col-lg-8 col-xl-6" bis_skin_checked="1">
+									<div class="text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<h2 class="mb-4">Meet Hostcity team</h2>
+										<p class="mb-0 max-text-48 mx-auto">
+											130+ dedicated professionals driven by a shared passion for delivering exceptional work.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container" bis_skin_checked="1">
+						<div class="row g-4" bis_skin_checked="1">
+							<div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="team" bis_skin_checked="1">
+									<img src="/img/team-1.jpg" alt="image" class="img-fluid w-100">
+									<div class="team__content p-4 p-xl-8" bis_skin_checked="1">
+										<div class="d-flex align-items-start gap-2" bis_skin_checked="1">
+											<div class="flex-grow-1" bis_skin_checked="1">
+												<h6 class="mb-2">
+													James Millard
+												</h6>
+												<span class="d-block fs-14">Web Developer</span>
+											</div>
+											<div class="flex-shrink-0" bis_skin_checked="1">
+												<div class="team__social" bis_skin_checked="1">
+													<button type="button" class="team__btn-expand"><i class="las la-plus"></i></button>
+													<ul class="team__social-list">
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-facebook-f"></i></a>
+														</li>
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-dribbble"></i></a>
+														</li>
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-behance"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="team" bis_skin_checked="1">
+									<img src="/img/team-2.jpg" alt="image" class="img-fluid w-100">
+									<div class="team__content p-4 p-xl-8" bis_skin_checked="1">
+										<div class="d-flex align-items-start gap-2" bis_skin_checked="1">
+											<div class="flex-grow-1" bis_skin_checked="1">
+												<h6 class="mb-2">
+													Nikol Oveckova
+												</h6>
+												<span class="d-block fs-14">Web Developer</span>
+											</div>
+											<div class="flex-shrink-0" bis_skin_checked="1">
+												<div class="team__social" bis_skin_checked="1">
+													<button type="button" class="team__btn-expand"><i class="las la-plus"></i></button>
+													<ul class="team__social-list">
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-facebook-f"></i></a>
+														</li>
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-dribbble"></i></a>
+														</li>
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-behance"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="team" bis_skin_checked="1">
+									<img src="/img/team-3.jpg" alt="image" class="img-fluid w-100">
+									<div class="team__content p-4 p-xl-8" bis_skin_checked="1">
+										<div class="d-flex align-items-start gap-2" bis_skin_checked="1">
+											<div class="flex-grow-1" bis_skin_checked="1">
+												<h6 class="mb-2">
+													Ondrej Matousek
+												</h6>
+												<span class="d-block fs-14">Web Developer</span>
+											</div>
+											<div class="flex-shrink-0" bis_skin_checked="1">
+												<div class="team__social" bis_skin_checked="1">
+													<button type="button" class="team__btn-expand"><i class="las la-plus"></i></button>
+													<ul class="team__social-list">
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-facebook-f"></i></a>
+														</li>
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-dribbble"></i></a>
+														</li>
+														<li>
+															<a href="#" class="team__social-link"><i class="lab la-behance"></i></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container" bis_skin_checked="1">
+					<div class="row" bis_skin_checked="1">
+						<div class="col-12" bis_skin_checked="1">
+							<div class="card rounded-3 cta-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="card-body px-6 pt-80 pb-80" bis_skin_checked="1">
+									<div class="row justify-content-center" bis_skin_checked="1">
+										<div class="col-md-11 col-lg-8 col-xl-6" bis_skin_checked="1">
+											<div class="text-center" bis_skin_checked="1">
+												<h3>Quality Hosting Support</h3>
+												<p class="mb-6">
+													With over two decades of experience in high-quality, secure web hosting HostCity is the strategic partner for your online journey.
+												</p>
+												<a class="btn btn-primary btn-arrow btn-arrow-xl btn-lg fs-14 fw-medium rounded" href="/contact" bis_skin_checked="1">
+													<span class="d-inline-block me-1 flex-shrink-0"><i class="las la-comments"></i></span>
+													<span class="btn-arrow__text">
+														Talk to a Specialist
+														<span class="btn-arrow__icon"><i class="las la-arrow-right"></i></span>
+													</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="pt-120 pb-120">
+					<div class="pb-60" bis_skin_checked="1">
+						<div class="container" bis_skin_checked="1">
+							<div class="row g-4 justify-content-center" bis_skin_checked="1">
+								<div class="col-md-10 col-xl-7" bis_skin_checked="1">
+									<div class="text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<h2 class="mb-4">Award-winning web hosting</h2>
+										<p class="mb-0 max-text-52 mx-auto">
+											Whether you run an e-commerce site or a web business you want to attract as many visitors as possible to your website.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container" bis_skin_checked="1">
+						<div class="row g-4" bis_skin_checked="1">
+							<div class="col-md-6 col-xl-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="card rounded-3 h-100" bis_skin_checked="1">
+									<div class="card-header pt-6 border-bottom-0" bis_skin_checked="1">
+										<a href="#" class="d-block text-decoration-none text-center"><img src="/img/award-4.png" alt="image" class="img-fluid"></a>
+									</div>
+									<div class="card-body pb-6" bis_skin_checked="1">
+										<h6 class="mb-2 fs-18 text-center">
+											<a href="#" class="d-block text-decoration-none text-dark hover:text-primary">Best Cloud Hosting-2024</a>
+										</h6>
+										<div class="hstack gap-1 justify-content-center align-items-center mb-4" bis_skin_checked="1">
+											<span class="d-block">by</span>
+											<a href="#" class="d-block fw-bold text-dark hover:text-primary fs-14 text-decoration-none">HostingAdvice</a>
+										</div>
+										<p class="mb-0 tt-line-clamp tt-clamp-3 text-center">
+											Hosting Advice is undoubtedly one of the top hosting authorities globally. This, among other recognition from them are very special to us.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-xl-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="card rounded-3 h-100" bis_skin_checked="1">
+									<div class="card-header pt-6 border-bottom-0" bis_skin_checked="1">
+										<a href="#" class="d-block text-decoration-none text-center"><img src="/img/award-5.png" alt="image" class="img-fluid"></a>
+									</div>
+									<div class="card-body pb-6" bis_skin_checked="1">
+										<h6 class="mb-2 fs-18 text-center">
+											<a href="#" class="d-block text-decoration-none text-dark hover:text-primary">Best Cloud Hosting-2024</a>
+										</h6>
+										<div class="hstack gap-1 justify-content-center align-items-center mb-4" bis_skin_checked="1">
+											<span class="d-block">by</span>
+											<a href="#" class="d-block fw-bold text-dark hover:text-primary fs-14 text-decoration-none">HostingAdvice</a>
+										</div>
+										<p class="mb-0 tt-line-clamp tt-clamp-3 text-center">
+											Hosting Advice is undoubtedly one of the top hosting authorities globally. This, among other recognition from them are very special to us.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-xl-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="card rounded-3 h-100" bis_skin_checked="1">
+									<div class="card-header pt-6 border-bottom-0" bis_skin_checked="1">
+										<a href="#" class="d-block text-decoration-none text-center"><img src="/img/award-6.png" alt="image" class="img-fluid"></a>
+									</div>
+									<div class="card-body pb-6" bis_skin_checked="1">
+										<h6 class="mb-2 fs-18 text-center">
+											<a href="#" class="d-block text-decoration-none text-dark hover:text-primary">Best Cloud Hosting-2024</a>
+										</h6>
+										<div class="hstack gap-1 justify-content-center align-items-center mb-4" bis_skin_checked="1">
+											<span class="d-block">by</span>
+											<a href="#" class="d-block fw-bold text-dark hover:text-primary fs-14 text-decoration-none">HostingAdvice</a>
+										</div>
+										<p class="mb-0 tt-line-clamp tt-clamp-3 text-center">
+											Hosting Advice is undoubtedly one of the top hosting authorities globally. This, among other recognition from them are very special to us.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-xl-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="card rounded-3 h-100" bis_skin_checked="1">
+									<div class="card-header pt-6 border-bottom-0" bis_skin_checked="1">
+										<a href="#" class="d-block text-decoration-none text-center"><img src="/img/award-7.png" alt="image" class="img-fluid"></a>
+									</div>
+									<div class="card-body pb-6" bis_skin_checked="1">
+										<h6 class="mb-2 fs-18 text-center">
+											<a href="#" class="d-block text-decoration-none text-dark hover:text-primary">Best Cloud Hosting-2024</a>
+										</h6>
+										<div class="hstack gap-1 justify-content-center align-items-center mb-4" bis_skin_checked="1">
+											<span class="d-block">by</span>
+											<a href="#" class="d-block fw-bold text-dark hover:text-primary fs-14 text-decoration-none">HostingAdvice</a>
+										</div>
+										<p class="mb-0 tt-line-clamp tt-clamp-3 text-center">
+											Hosting Advice is undoubtedly one of the top hosting authorities globally. This, among other recognition from them are very special to us.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="text-center pt-40" bis_skin_checked="1">
+									<a class="btn btn-primary btn-arrow btn-arrow-xl btn-lg fs-14 fw-medium rounded" href="/contact" bis_skin_checked="1">
+										<span class="d-inline-block me-1 flex-shrink-0"><i class="las la-comments"></i></span>
+										<span class="btn-arrow__text">
+											Talk to a Specialist
+											<span class="btn-arrow__icon"><i class="las la-arrow-right"></i></span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="footer-cta" bis_skin_checked="1">
+					<div class="container" bis_skin_checked="1">
+						<div class="row justify-content-center" bis_skin_checked="1">
+							<div class="col-xl-10" bis_skin_checked="1">
+								<div class="bg-primary pt-60 pb-60 px-6 px-md-12 rounded-3 overflow-hidden position-relative z-1 text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<div class="row justify-content-center" bis_skin_checked="1">
+										<div class="col-md-8 col-xl-7 col-xxl-6" bis_skin_checked="1">
+											<h4 class="text-white mb-4">Experience Our Service with a<br>7-Day Risk-Free Trial</h4>
+											<a class="btn btn-light btn-arrow btn-arrow-xl btn-lg fs-14 fw-semibold rounded" href="/contact" bis_skin_checked="1">
+												<span class="btn-arrow__text">
+													Sign up - Free Trial
+													<span class="btn-arrow__icon"><i class="las la-arrow-right"></i></span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<img src="/img/footer-cta-left.png" alt="Decorative left" class="img-fluid d-none d-md-block position-absolute top-0 start-0 z-n1 opacity-75">
+									<img src="/img/footer-cta-right.png" alt="Decorative right" class="img-fluid d-none d-md-block position-absolute end-0 top-0 z-n1 opacity-75">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer-2-area pt-120 pb-5  position-relative z-1 bg-dark">
+				<div class="container" bis_skin_checked="1">
+					<div class="row" bis_skin_checked="1">
+						<div class="col-lg-4 col-md-6" bis_skin_checked="1">
+							<img src="/img/logo-light.png" alt="image" class="logo__img">
+							<p class="text-white text-opacity-75 mt-8">
+								Whether you run an e-commerce site or a web business, you want to attract as many visitors as s or for when you no longer want to be limited by
+							</p>
+							<h6 class="text-white mt-6 mb-4 fs-16">
+								Social Media
+							</h6>
+							<div class="d-inline-flex align-items-center justify-content-center gap-2" bis_skin_checked="1">
+								<a href="#" class="social-icon w-9 h-9 d-inline-flex align-items-center justify-content-center rounded-circle border border-light border-opacity-10">
+									<span class="text-white"><i class="lab la-twitter"></i></span>
+								</a>
+								<a href="#" class="social-icon w-9 h-9 d-inline-flex align-items-center justify-content-center rounded-circle border border-light border-opacity-10">
+									<span class="text-white"><i class="lab la-facebook-f"></i></span>
+								</a>
+								<a href="#" class="social-icon w-9 h-9 d-inline-flex align-items-center justify-content-center rounded-circle border border-light border-opacity-10">
+									<span class="text-white"><i class="lab la-dribbble"></i></span>
+								</a>
+								<a href="#" class="social-icon w-9 h-9 d-inline-flex align-items-center justify-content-center rounded-circle border border-light border-opacity-10">
+									<span class="text-white"><i class="lab la-behance"></i></span>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6" bis_skin_checked="1">
+							<div class="ps-xl-10" bis_skin_checked="1">
+								<h6 class="text-white fs-16 mt-3 mb-8">
+									Product &amp; Solutions
+								</h6>
+								<ul class="list-unstyled d-flex flex-column gap-2">
+									<li><a class="footer-2-link" href="/shared-hosting" bis_skin_checked="1">Shared Hosting</a></li>
+									<li><a class="footer-2-link" href="/wordpress-hosting" bis_skin_checked="1">WordPress Hosting</a></li>
+									<li><a class="footer-2-link" href="/vps-hosting" bis_skin_checked="1">VPS Hosting</a></li>
+									<li><a class="footer-2-link" href="/cloud-hosting" bis_skin_checked="1">Cloud Servers</a></li>
+									<li><a class="footer-2-link" href="/dedicated-server" bis_skin_checked="1">Dedicated Servers</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6" bis_skin_checked="1">
+							<div class="ps-xl-5" bis_skin_checked="1">
+								<h6 class="text-white fs-16 mt-3 mb-8">
+									Hostcity Feature
+								</h6>
+								<ul class="list-unstyled d-flex flex-column gap-2">
+									<li><a class="footer-2-link" href="/data-center" bis_skin_checked="1">Data Center</a></li>
+									<li><a class="footer-2-link" href="/control-panel" bis_skin_checked="1">Control Panel</a></li>
+									<li><a class="footer-2-link" href="/operating-system" bis_skin_checked="1">Operating System</a></li>
+									<li><a class="footer-2-link" href="/blog" bis_skin_checked="1">Uptime Guarantee</a></li>
+									<li><a class="footer-2-link" href="/ddos" bis_skin_checked="1">DDOS Protection</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-6" bis_skin_checked="1">
+							<div class="ps-xl-5" bis_skin_checked="1">
+								<h6 class="text-white fs-16 mt-3 mb-8">
+									Company Info
+								</h6>
+								<ul class="list-unstyled d-flex flex-column gap-2">
+									<li><a class="footer-2-link" href="/about-us" bis_skin_checked="1">About Us</a></li>
+									<li><a class="footer-2-link" href="/blog" bis_skin_checked="1">Partners</a></li>
+									<li><a class="footer-2-link" href="/blog" bis_skin_checked="1">Knowledgebase</a></li>
+									<li><a class="footer-2-link" href="/contact" bis_skin_checked="1">Contact Us</a></li>
+									<li><a class="footer-2-link" href="/blog" bis_skin_checked="1">News</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="mt-20" bis_skin_checked="1">
+						<div class="d-flex align-items-center justify-content-between flex-wrap gap-5 pt-5 border-top border-light border-opacity-10" bis_skin_checked="1">
+							<p class="text-white mb-0 fs-14">
+								© 2024 Nuage Paris. All rights reserved
+							</p>
+							<div class="d-inline-flex align-items-center justify-content-center gap-4 flex-wrap" bis_skin_checked="1">
+								<a class="footer-2-link" href="/terms" bis_skin_checked="1">Terms &amp; Condition</a>
+								<a class="footer-2-link" href="/privacy" bis_skin_checked="1">Privacy Policy</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

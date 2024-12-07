@@ -1,0 +1,1012 @@
+<html lang="en">
+	<script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script>
+	<script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script>
+	<script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/svg+xml" href="/img/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hostingard</title>
+        <link rel="stylesheet" href="./assets/style.css">
+		<script type="module" crossorigin="" src="/assets/index-CYfanrEm.js"></script>
+		<link rel="stylesheet" crossorigin="" href="/assets/index-LQwjvhTu.css">
+		<script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/../executers/vi-tr.js"></script>
+	</head>
+	<body __processed_52bd1913-e179-4e76-bf64-6ca9bb4c5f14__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJMSU5LRURJTiI6ImRpc2FibGVkIiwiQ09ORklHIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjIuMC4xNyIsInNjb3JlIjoyMDAxN31d" class="">
+		<div id="root" bis_skin_checked="1">
+			<header>
+				<div class="" bis_skin_checked="1">
+					<div class="navbar-overlay bg-body bg-opacity-5 navbar-1" bis_skin_checked="1">
+						<nav class="navbar navbar-expand-lg py-5 py-lg-0">
+							<div class="container" bis_skin_checked="1">
+								<a class="navbar-brand logo" href="/">
+									<img src="/img/logo-light.png" alt="image" class="logo__img">
+									<img src="/img/logo-dark.png" alt="image" class="logo__img logo__sticky">
+								</a>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryMenu" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+								<div class="collapse navbar-collapse" id="primaryMenu" bis_skin_checked="1">
+									<ul class="navbar-nav align-items-lg-center gap-lg-3 ms-auto ">
+										<li class="nav-item contain-sub-1 contain-sub-1--alter">
+											<a class="nav-link fw-medium " href="./index.html">Home</a>
+											<ul class="contain-sub-1__content contain-sub-1__content-xl list-unstyled px-4">
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/data-center">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-vps-server.png" alt="Data Center" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Data Center</span>
+															<span class="contain-sub-1__description">Secure, reliable, scalable data center hosting with 24/7 support.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/web-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-web-hosting.png" alt="Web Hosting" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Web Hosting</span>
+															<span class="contain-sub-1__description">Reliable web hosting with fast speeds, 24/7 support &amp; security.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/isomatic">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-dedicated-server.png" alt="Isomatic" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Isomatic</span>
+															<span class="contain-sub-1__description">Isomatic hosting: reliable, secure, fast, with 24/7 support.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/vps-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-vps-server.png" alt="VPS Hosting" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">VPS Hosting</span>
+															<span class="contain-sub-1__description">Virtual machine that provides virtualized server resources.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/game-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-game-server.png" alt="Game Hosting" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Game Hosting</span>
+															<span class="contain-sub-1__description">Virtual servers running in a cloud computing environment.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/wordpress-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-wp-hosting.png" alt="WordPress Hosting" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">WordPress Hosting</span>
+															<span class="contain-sub-1__description">WordPress hosting built for performance and managed.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/cloud-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-cloud-server.png" alt="Cloud Hosting" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Cloud Hosting</span>
+															<span class="contain-sub-1__description">Virtual servers running in a cloud computing environment.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/modern-home">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-security.png" alt="Modern Home" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Modern Home</span>
+															<span class="contain-sub-1__description">Modern Home hosting: secure, reliable, fast, with 24/7 support.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2 rounded-4" href="/web-hosting-modern">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-ssl.png" alt="Web Hosting Modern" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Web Hosting Modern</span>
+															<span class="contain-sub-1__description">Fast, secure, dependable, with round-the-clock support.</span>
+														</span>
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item contain-sub-1">
+											<a class="nav-link fw-medium " href="#">Hosting</a>
+											<ul class="contain-sub-1__content contain-sub-1__content-xl list-unstyled ">
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/wp-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-wp-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2">
+																<span class="d-inline-block">WordPress Hosting</span>
+																<span class="flex-shrink-0 badge bg-primary-subtle text-primary-emphasis fw-bold py-1">New</span>
+															</span>
+															<span class="contain-sub-1__description">WordPress hosting built for performance and managed</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/shared-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-shared-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Shared Hosting</span></span>
+															<span class="contain-sub-1__description">Shared hosting is a type of web hosting a single physical</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/reseller-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-reseller-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Reseller Hosting</span></span>
+															<span class="contain-sub-1__description">Reseller hosting is a type of web hosting a single physical</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/cpanel-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-cpanel-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">cPanel Hosting</span></span>
+															<span class="contain-sub-1__description">cPanel hosting is a type of web hosting a single physical</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/web-hosting-new">
+														<span class="contain-sub-1__img"><img src="/img/icon-web-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2">
+																<span class="d-inline-block">Web Hosting</span>
+																<span class="flex-shrink-0 badge bg-primary-subtle text-primary-emphasis fw-bold py-1">New</span>
+															</span>
+															<span class="contain-sub-1__description">Web hosting is a type of web hosting a single physical</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/ecommerce-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-shared-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Ecommerce Hosting</span></span>
+															<span class="contain-sub-1__description">Ecommerce hosting is a type of web hosting a single physical</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/cloud-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-cloud-server.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Cloud Hosting</span></span>
+															<span class="contain-sub-1__description">virtual servers running in a cloud computing environment</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/email-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-email.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Email Hosting</span></span>
+															<span class="contain-sub-1__description">virtual servers running in a cloud computing environment</span>
+														</span>
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item contain-sub-1">
+											<a class="nav-link fw-medium " href="#">Servers</a>
+											<ul class="contain-sub-1__content contain-sub-1__content-xl list-unstyled ">
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/vps-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-vps-server.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">VPS Server</span>
+															<span class="contain-sub-1__description">Virtual machine that provides virtualized server resources</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/game-hosting">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-game-server.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Game Server</span>
+															<span class="contain-sub-1__description">virtual servers running in a cloud computing environment</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/dedicated-server">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-dedicated-server.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Dedicated Server</span>
+															<span class="contain-sub-1__description">virtual servers running in a cloud computing environment</span>
+														</span>
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item contain-mega-menu">
+											<a class="nav-link fw-medium " href="#">Domain</a>
+											<div class="contain-mega-menu__content " bis_skin_checked="1">
+												<div class="container p-0" bis_skin_checked="1">
+													<div class="row g-0 align-items-center" bis_skin_checked="1">
+														<div class="col-xl-7" bis_skin_checked="1">
+															<div class="h-100 pt-32 pb-32 px-6" bis_skin_checked="1">
+																<span class="h6 d-block fs-18">Domain</span>
+																<div class="row g-0 gx-md-5" bis_skin_checked="1">
+																	<div class="col-md-6" bis_skin_checked="1">
+																		<ul class="contain-mega-menu__list list-unstyled ">
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/domain-page">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-transfer-domain.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Search Domain Name</span></span>
+																						<span class="contain-mega-menu__description">WordPress hosting is a specialized service tailored to the needs</span>
+																					</span>
+																				</a>
+																			</li>
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/transfer-domain">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-transfer-domain.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex align-items-center justify-content-between gap-2">
+																							<span class="d-inline-block">Transfer Domain Names</span>
+																							<span class="flex-shrink-0 badge bg-danger-subtle text-danger-emphasis fw-bold py-1">Hot</span>
+																						</span>
+																						<span class="contain-mega-menu__description">Powerful web hosting with free SSL and backups included.</span>
+																					</span>
+																				</a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="col-md-6" bis_skin_checked="1">
+																		<ul class="contain-mega-menu__list list-unstyled">
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/domain-registration">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-transfer-domain.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Domain Registration</span></span>
+																						<span class="contain-mega-menu__description">Dedicated hosting is premium web hosting</span>
+																					</span>
+																				</a>
+																			</li>
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/transfer-domain-search">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-transfer-domain.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex align-items-center justify-content-between gap-2"><span class="d-inline-block">Transfer Domain Search</span></span>
+																						<span class="contain-mega-menu__description">Dedicated hosting is premium web hosting</span>
+																					</span>
+																				</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-5" bis_skin_checked="1">
+															<div class="h-100 p-6" bis_skin_checked="1">
+																<div class="row g-2 bg-primary bg-opacity-5 p-4 p-xl-8 rounded" bis_skin_checked="1">
+																	<div class="col-xl-6" bis_skin_checked="1">
+																		<span class="d-block h5 mb-4">Buy a Domain You Want</span>
+																		<div class="d-flex align-items-center gap-2 mb-4" bis_skin_checked="1">
+																			<div class="w-4 h-4 bg-success flex-shrink-0 bg-opacity-75 rounded-circle fs-10 lh-1 text-white d-flex align-items-center justify-content-center" bis_skin_checked="1">
+																				<i class="las la-check"></i>
+																			</div>
+																			<small class="fw-medium">
+																				Up to 32 Cores
+																			</small>
+																		</div>
+																		<a class="btn btn-sm btn-primary" href="/domain-registration">Explore Now</a>
+																	</div>
+																	<div class="col-xl-6 d-none d-xl-block" bis_skin_checked="1">
+																		<img src="/img/mega-menu-img-1.png" alt="image" class="img-fluid">
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="nav-item contain-sub-1">
+											<a class="nav-link fw-medium " href="#">Company</a>
+											<ul class="contain-sub-1__content contain-sub-1__content-xl list-unstyled ">
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/about-us">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-about.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">About Company</span>
+															<span class="contain-sub-1__description">WordPress hosting is a specialized service tailored</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/contact">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-game-server.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Contact Page</span>
+															<span class="contain-sub-1__description">Dedicated hosting is premium web hosting</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/blog">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-vps-hosting.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Blog</span>
+															<span class="contain-sub-1__description">Powerful web hosting with free SSL and backups included.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/blog-listing">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-pricing-icon.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Blog Listing</span>
+															<span class="contain-sub-1__description">Powerful web hosting with free SSL and backups included.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/blog-details">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-pricing-icon.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Blog Details</span>
+															<span class="contain-sub-1__description">Powerful web hosting with free SSL and backups included.</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/terms">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-pricing-icon.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Terms &amp; Conditon</span>
+															<span class="contain-sub-1__description">Terms and condition</span>
+														</span>
+													</a>
+												</li>
+												<li>
+													<a class="contain-sub-1__link text-decoration-none d-flex align-items-start gap-2" href="/privacy">
+														<span class="contain-sub-1__img"><img src="/img/icon-menu-pricing-icon.png" alt="image" class="img-fluid"></span>
+														<span class="flex-grow-1">
+															<span class="contain-sub-1__title d-flex">Privacy Policy</span>
+															<span class="contain-sub-1__description">privacy policy.</span>
+														</span>
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item contain-mega-menu">
+											<a class="nav-link fw-medium active" href="#">Feature</a>
+											<div class="contain-mega-menu__content " bis_skin_checked="1">
+												<div class="container p-0" bis_skin_checked="1">
+													<div class="row g-0 align-items-center" bis_skin_checked="1">
+														<div class="col-xl-7" bis_skin_checked="1">
+															<div class="h-100 pt-32 pb-32 px-6" bis_skin_checked="1">
+																<span class="h6 d-block fs-18">Feature</span>
+																<div class="row g-0 gx-md-5" bis_skin_checked="1">
+																	<div class="col-md-6" bis_skin_checked="1">
+																		<ul class="contain-mega-menu__list list-unstyled">
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/ddos">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-ddos.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex">DDos Protection</span>
+																						<span class="contain-mega-menu__description">WordPress hosting is a specialized service tailored to the needs</span>
+																					</span>
+																				</a>
+																			</li>
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/operating-system">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-os.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex">Operating System</span>
+																						<span class="contain-mega-menu__description">Powerful web hosting with free SSL and backups included.</span>
+																					</span>
+																				</a>
+																			</li>
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/premium-network">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-transfer-domain.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex">Premium Network</span>
+																						<span class="contain-mega-menu__description">Powerful web hosting with free SSL and backups included.</span>
+																					</span>
+																				</a>
+																			</li>
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/ssl-security">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-ssl.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex">SSl Security</span>
+																						<span class="contain-mega-menu__description">Powerful web hosting with free SSL and backups included.</span>
+																					</span>
+																				</a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="col-md-6" bis_skin_checked="1">
+																		<ul class="contain-mega-menu__list list-unstyled">
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/server-location">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-domain-reg.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex">Server Location</span>
+																						<span class="contain-mega-menu__description">Dedicated hosting is premium web hosting</span>
+																					</span>
+																				</a>
+																			</li>
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/control-panel">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-control-panel.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex">Control Panel</span>
+																						<span class="contain-mega-menu__description">Dedicated hosting is premium web hosting</span>
+																					</span>
+																				</a>
+																			</li>
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/support-page">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-supprot.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex">Support</span>
+																						<span class="contain-mega-menu__description">Dedicated hosting is premium web hosting</span>
+																					</span>
+																				</a>
+																			</li>
+																			<li>
+																				<a class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2" href="/security-technology">
+																					<span class="contain-mega-menu__img"><img src="/img/icon-menu-security.png" alt="image" class="img-fluid"></span>
+																					<span class="flex-grow-1">
+																						<span class="contain-mega-menu__title d-flex">Security &amp; Technology</span>
+																						<span class="contain-mega-menu__description">Dedicated hosting is premium web hosting</span>
+																					</span>
+																				</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-xl-5" bis_skin_checked="1">
+															<div class="h-100 p-6" bis_skin_checked="1">
+																<div class="row g-2 bg-primary bg-opacity-5 p-4 p-xl-8 rounded" bis_skin_checked="1">
+																	<div class="col-xl-6" bis_skin_checked="1">
+																		<span class="d-block h5 mb-4">Buy a Domain You Want</span>
+																		<div class="d-flex align-items-center gap-2 mb-4" bis_skin_checked="1">
+																			<div class="w-4 h-4 bg-success flex-shrink-0 bg-opacity-75 rounded-circle fs-10 lh-1 text-white d-flex align-items-center justify-content-center" bis_skin_checked="1">
+																				<i class="las la-check"></i>
+																			</div>
+																			<small class="fw-medium">
+																				Up to 32 Cores
+																			</small>
+																		</div>
+																		<a class="btn btn-sm btn-primary" href="/domain-registration">Explore Now</a>
+																	</div>
+																	<div class="col-xl-6 d-none d-xl-block" bis_skin_checked="1">
+																		<img src="/img/mega-menu-img-1.png" alt="image" class="img-fluid">
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="nav-item"><a class="nav-link fw-medium " href="/price">Pricing</a></li>
+										<li class="nav-item"><a class="link btn btn-sm btn-primary hover:bg-dark hover:border-dark fw-medium rounded-1" href="/home.html">Get Started</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<main class="bg-secondary">
+				<section class="banner-bg bg-dark ddos-banner">
+					<div class="container" bis_skin_checked="1">
+						<div class="row justify-content-center" bis_skin_checked="1">
+							<div class="col-xxl-7 col-xl-8" bis_skin_checked="1">
+								<div class="text-center" bis_skin_checked="1">
+									<span class="fs-18 fw-bold text-primary mb-2" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Hostcity Security</span>
+									<h1 class="text-white mb-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Effortless and_Effective DDoS Protection</h1>
+									<p class="text-white mb-8 max-text-60 mx-auto text-opacity-75" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+										Add an additional layer of protection to keep your hosting infrastructure online and operating optimally even when they are the target of attacks.
+									</p>
+									<div class="d-flex align-items-center justify-content-center gap-4 flex-wrap" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<a class="btn btn-primary btn-arrow btn-arrow-lg btn-lg fs-14 fw-semibold rounded" href="/contact">
+											<span class="btn-arrow__text">
+												Create Accout
+												<span class="btn-arrow__icon"><i class="las la-arrow-right"></i></span>
+											</span>
+										</a>
+										<a class="btn btn-light btn-arrow btn-arrow-lg btn-lg fs-14 fw-semibold rounded transition" href="/price">
+											<span class="btn-arrow__text">
+												View Pricing
+												<span class="btn-arrow__icon"><i class="las la-arrow-right"></i></span>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="ddos-about mt-n30 position-relative z-1">
+					<div class="container" bis_skin_checked="1">
+						<div class="bg-white px-8 py-10 rounded-3 shadow" bis_skin_checked="1">
+							<div class="row g-4" bis_skin_checked="1">
+								<div class="col-lg-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<img src="/img/ddos-about-1.png" alt="icon" class="img-fluid mb-5">
+									<h6 class="mb-3">
+										Routing is not Mitigating
+									</h6>
+									<p class="mb-0">
+										Need help? We will set up and install your SSL certificate free of charge!*
+									</p>
+								</div>
+								<div class="col-lg-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<img src="/img/ddos-about-2.png" alt="icon" class="img-fluid mb-5">
+									<h6 class="mb-3">
+										No Attack is too Big
+									</h6>
+									<p class="mb-0">
+										Need help? We will set up and install your SSL certificate free of charge!*
+									</p>
+								</div>
+								<div class="col-lg-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<img src="/img/ddos-about-3.png" alt="icon" class="img-fluid mb-5">
+									<h6 class="mb-3">
+										Included &amp; Extensible
+									</h6>
+									<p class="mb-0">
+										Need help? We will set up and install your SSL certificate free of charge!*
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="pt-120 pb-60">
+					<div class="container" bis_skin_checked="1">
+						<div class="row align-items-center g-4" bis_skin_checked="1">
+							<div class="col-lg-6" bis_skin_checked="1">
+								<img src="/img/analytics-1.png" alt="image" class="img-fluid" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+							</div>
+							<div class="col-lg-6" bis_skin_checked="1">
+								<div class="d-inline-flex align-items-center gap-2 mb-2" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<div class="w-2 h-2 rounded-circle bg-primary" bis_skin_checked="1"></div>
+									<small class="text-primary fw-bold">
+										Real_time Analytics &amp; Reporting
+									</small>
+								</div>
+								<h2 class="mb-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Driving Decisions with Dynamic Insights</h2>
+								<p class="mb-0" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+									Our system monitors network traffic and routes malicious activity to our attack mitigation farm as soon as a DDoS event is detected, generally within 60 seconds.
+									<br>
+									<br>
+									Our system monitors network traffic and routes malicious activity to our attack mitigation farm as soon as a DDoS event is detected, generally within 60 seconds.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="pt-60 pb-60">
+					<div class="container" bis_skin_checked="1">
+						<div class="row align-items-center g-4" bis_skin_checked="1">
+							<div class="col-lg-6" bis_skin_checked="1">
+								<div class="d-inline-flex align-items-center gap-2 mb-2" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<div class="w-2 h-2 rounded-circle bg-primary" bis_skin_checked="1"></div>
+									<small class="text-primary fw-bold">
+										No increased latency
+									</small>
+								</div>
+								<h2 class="mb-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Seamless Performance Eliminating Latency</h2>
+								<p class="mb-0" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+									Our system monitors network traffic and routes malicious activity to our attack mitigation farm as soon as a DDoS event is detected, generally within 60 seconds. 
+									<br>
+									<br>
+									Our system monitors network traffic and routes malicious activity to our attack mitigation farm as soon as a DDoS event is detected, generally within 60 seconds.
+								</p>
+							</div>
+							<div class="col-lg-6" bis_skin_checked="1">
+								<img src="/img/analytics-2.png" alt="image" class="img-fluid" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="pt-60 pb-120">
+					<div class="container" bis_skin_checked="1">
+						<div class="bg-white px-8 py-10 rounded-3" bis_skin_checked="1">
+							<div class="row align-items-center g-4" bis_skin_checked="1">
+								<div class="col-lg-5" bis_skin_checked="1">
+									<img src="/img/reporting-1.png" alt="image" class="img-fluid" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+								</div>
+								<div class="col-lg-7" bis_skin_checked="1">
+									<div class="d-inline-flex align-items-center gap-2 mb-2" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<div class="w-2 h-2 rounded-circle bg-primary" bis_skin_checked="1"></div>
+										<small class="text-primary fw-bold">
+											Real_time Analytics &amp; Reporting
+										</small>
+									</div>
+									<h2 class="mb-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Unmetered Mitigation for Your Entire Server.</h2>
+									<p class="mb-0" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+										 Hostcity anti-DDoS solution Shield protects your servers from volume &amp; protocol-based attacks. It is&nbsp;included in your subscription&nbsp;and comes without limits, no matter the scale of the attack.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="bg-dark pt-120 pb-120">
+					<div class="container" bis_skin_checked="1">
+						<div class="row justify-content-center" bis_skin_checked="1">
+							<div class="col-xxl-7 col-xl-8" bis_skin_checked="1">
+								<div class="d-flex align-items-center justify-content-center gap-2 mb-2" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<div class="w-2 h-2 rounded-circle bg-primary" bis_skin_checked="1"></div>
+									<small class="text-primary fw-bold">
+										Hostcity DDoS Shield
+									</small>
+								</div>
+								<div class="text-center mb-8" bis_skin_checked="1">
+									<h2 class="text-white mb-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Choose between DDoS shield Setting per each Server</h2>
+									<p class="text-white mb-0 max-text-56 mx-auto" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+										Our system monitors network traffic and routes malicious activity to our attack mitigation farm as soon as a DDoS event is detected.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row g-4" bis_skin_checked="1">
+							<div class="col-lg-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="bg-white bg-opacity-5 p-6 p-xl-10 rounded-3" bis_skin_checked="1">
+									<div class="d-flex align-items-center justify-content-between gap-3 mb-4" bis_skin_checked="1">
+										<h5 class="text-white mb-0">
+											Volumetric Shield
+										</h5>
+										<p class="h5 mb-0 text-white text-opacity-25">
+											01
+										</p>
+									</div>
+									<div class="d-flex gap-6 flex-wrap flex-sm-nowrap" bis_skin_checked="1">
+										<div class="flex-shrink-0" bis_skin_checked="1">
+											<img src="/img/ddos-server-1.png" alt="icon" class="img-fluid">
+										</div>
+										<div bis_skin_checked="1">
+											<p class="text-white mb-4">
+												Deployed on edge routers, Volumetric Shield detects and filters out DDoS attacks through firewall rules. Efficient against NTP, DNS, UDP, Memcached and other simple amplification attacks.
+											</p>
+											<a href="#" class="text-decoration-none d-inline-flex align-items-center gap-3 text-primary fw-bold">
+												Learn More
+												<span class="fs-20"><i class="las la-arrow-right"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+								<div class="bg-white bg-opacity-5 p-6 rounded-3 p-xl-10" bis_skin_checked="1">
+									<div class="d-flex align-items-center justify-content-between gap-3 mb-4" bis_skin_checked="1">
+										<h5 class="text-white mb-0">
+											Full Shield
+										</h5>
+										<p class="h5 mb-0 text-white text-opacity-25">
+											02
+										</p>
+									</div>
+									<div class="d-flex gap-6 flex-wrap flex-sm-nowrap" bis_skin_checked="1">
+										<div class="flex-shrink-0" bis_skin_checked="1">
+											<img src="/img/ddos-server-2.png" alt="icon" class="img-fluid">
+										</div>
+										<div bis_skin_checked="1">
+											<p class="text-white mb-4">
+												Deployed on edge routers, Volumetric Shield detects and filters out DDoS attacks through firewall rules. Efficient against NTP, DNS, UDP, Memcached and other simple amplification attacks.
+											</p>
+											<a href="#" class="text-decoration-none d-inline-flex align-items-center gap-3 text-primary fw-bold">
+												Learn More
+												<span class="fs-20"><i class="las la-arrow-right"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="pt-120 pb-60">
+					<div class="container" bis_skin_checked="1">
+						<div class="row align-items-center g-4" bis_skin_checked="1">
+							<div class="col-lg-6" bis_skin_checked="1">
+								<div class="d-inline-flex align-items-center gap-2 mb-2" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<div class="w-2 h-2 rounded-circle bg-primary" bis_skin_checked="1"></div>
+									<small class="text-primary fw-bold">
+										24/7 Support 
+									</small>
+								</div>
+								<h2 class="mb-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Unwavering Assistance Expert DDoS Support</h2>
+								<p class="mb-8" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+									Our system monitors network traffic and routes malicious activity to our attack mitigation farm as soon as a DDoS event is detected, generally within 60 seconds. 
+									<br>
+									<br>
+									Our system monitors network traffic and routes malicious activity to our attack mitigation farm as soon as a DDoS event is detected, generally within 60 seconds.
+								</p>
+								<a class="btn btn-outline-primary btn-lg fs-14 fw-semibold rounded text-primary" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" href="/contact">Contact Sales</a>
+							</div>
+							<div class="col-lg-6" bis_skin_checked="1">
+								<img src="/img/ddos-support.png" alt="image" class="img-fluid" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="pt-120 pb-120">
+					<div class="pb-40" bis_skin_checked="1">
+						<div class="container" bis_skin_checked="1">
+							<div class="row justify-content-center" bis_skin_checked="1">
+								<div class="col-md-10 col-lg-8" bis_skin_checked="1">
+									<div class="d-flex justify-content-center mb-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<div class="w-30 h-30 d-flex align-items-center justify-content-center flex-column bg-white shadow-lg rounded-circle text-center p-2" bis_skin_checked="1">
+											<h4 class="text-primary"><span class="counter">64</span>+</h4>
+											<span class="d-block fs-12 text-primary fw-semibold">Our Availability</span>
+										</div>
+									</div>
+									<h2 class="mb-4 text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">Build Locally, Launch Worldwide</h2>
+									<p class="mb-0 text-center max-text-72 mx-auto" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+										Hostcity offers the largest worldwide network, enabling you to spin up and easily scale a low latency infrastructure solution no matter where you or your customers may be!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="pb-60" bis_skin_checked="1">
+						<div class="container" bis_skin_checked="1">
+							<div class="row" bis_skin_checked="1">
+								<div class="col-12" bis_skin_checked="1">
+									<div class="text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+										<div class="data-center" bis_skin_checked="1">
+											<img class="img-fluid data-center__map" src="/img/shape/map-img-1.png" alt="image">
+											<div class="data-center__location data-center__location-1 active " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-5.png" alt="London, UK" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																London, UK
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-2  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-12.png" alt="India" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																India
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-3  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-7.png" alt="Russia" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																Russia
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-4  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-8.png" alt="New York" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																New York
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-5  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-9.png" alt="Brazil" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																Brazil
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-6  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-10.png" alt="Hongkong" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																Hongkong
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="data-center__location data-center__location-7  " bis_skin_checked="1">
+												<div class="data-center__pin" bis_skin_checked="1">
+													<div class="data-center__tooltip" bis_skin_checked="1">
+														<div class="data-center__btn" bis_skin_checked="1">
+															<div class="data-center__btn-img" bis_skin_checked="1">
+																<img src="/img/flag-11.png" alt="Bangladesh" class="img-fluid">
+															</div>
+															<div class="data-center__btn-text" bis_skin_checked="1">
+																Bangladesh
+															</div>
+														</div>
+														<div class="data-center__btn-arrow" bis_skin_checked="1">
+															<img src="/img/shape/location-arrow.png" alt="image" class="img-fluid">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pt-40 text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+							<div class="container" bis_skin_checked="1">
+								<div class="row" bis_skin_checked="1">
+									<div class="col-12" bis_skin_checked="1">
+										<a class="btn btn-outline-primary fs-14 fw-semibold" href="/contact">Create Account</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="footer-cta" bis_skin_checked="1">
+					<div class="container" bis_skin_checked="1">
+						<div class="row justify-content-center" bis_skin_checked="1">
+							<div class="col-xl-10" bis_skin_checked="1">
+								<div class="bg-primary pt-60 pb-60 px-6 px-md-12 rounded-3 overflow-hidden position-relative z-1 text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine" bis_skin_checked="1">
+									<div class="row justify-content-center" bis_skin_checked="1">
+										<div class="col-md-8 col-xl-7 col-xxl-6" bis_skin_checked="1">
+											<h4 class="text-white mb-4">Experience Our Service with a<br>7-Day Risk-Free Trial</h4>
+											<a class="btn btn-light btn-arrow btn-arrow-xl btn-lg fs-14 fw-semibold rounded" href="/contact">
+												<span class="btn-arrow__text">
+													Sign up - Free Trial
+													<span class="btn-arrow__icon"><i class="las la-arrow-right"></i></span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<img src="/img/footer-cta-left.png" alt="Decorative left" class="img-fluid d-none d-md-block position-absolute top-0 start-0 z-n1 opacity-75">
+									<img src="/img/footer-cta-right.png" alt="Decorative right" class="img-fluid d-none d-md-block position-absolute end-0 top-0 z-n1 opacity-75">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer-2-area pt-120 pb-5  position-relative z-1 bg-dark">
+				<div class="container" bis_skin_checked="1">
+					<div class="row" bis_skin_checked="1">
+						<div class="col-lg-4 col-md-6" bis_skin_checked="1">
+							<img src="/img/logo-light.png" alt="image" class="logo__img">
+							<p class="text-white text-opacity-75 mt-8">
+								Whether you run an e-commerce site or a web business, you want to attract as many visitors as s or for when you no longer want to be limited by
+							</p>
+							<h6 class="text-white mt-6 mb-4 fs-16">
+								Social Media
+							</h6>
+							<div class="d-inline-flex align-items-center justify-content-center gap-2" bis_skin_checked="1">
+								<a href="#" class="social-icon w-9 h-9 d-inline-flex align-items-center justify-content-center rounded-circle border border-light border-opacity-10">
+									<span class="text-white"><i class="lab la-twitter"></i></span>
+								</a>
+								<a href="#" class="social-icon w-9 h-9 d-inline-flex align-items-center justify-content-center rounded-circle border border-light border-opacity-10">
+									<span class="text-white"><i class="lab la-facebook-f"></i></span>
+								</a>
+								<a href="#" class="social-icon w-9 h-9 d-inline-flex align-items-center justify-content-center rounded-circle border border-light border-opacity-10">
+									<span class="text-white"><i class="lab la-dribbble"></i></span>
+								</a>
+								<a href="#" class="social-icon w-9 h-9 d-inline-flex align-items-center justify-content-center rounded-circle border border-light border-opacity-10">
+									<span class="text-white"><i class="lab la-behance"></i></span>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6" bis_skin_checked="1">
+							<div class="ps-xl-10" bis_skin_checked="1">
+								<h6 class="text-white fs-16 mt-3 mb-8">
+									Product &amp; Solutions
+								</h6>
+								<ul class="list-unstyled d-flex flex-column gap-2">
+									<li><a class="footer-2-link" href="/shared-hosting">Shared Hosting</a></li>
+									<li><a class="footer-2-link" href="/wordpress-hosting">WordPress Hosting</a></li>
+									<li><a class="footer-2-link" href="/vps-hosting">VPS Hosting</a></li>
+									<li><a class="footer-2-link" href="/cloud-hosting">Cloud Servers</a></li>
+									<li><a class="footer-2-link" href="/dedicated-server">Dedicated Servers</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6" bis_skin_checked="1">
+							<div class="ps-xl-5" bis_skin_checked="1">
+								<h6 class="text-white fs-16 mt-3 mb-8">
+									Hostcity Feature
+								</h6>
+								<ul class="list-unstyled d-flex flex-column gap-2">
+									<li><a class="footer-2-link" href="/data-center">Data Center</a></li>
+									<li><a class="footer-2-link" href="/control-panel">Control Panel</a></li>
+									<li><a class="footer-2-link" href="/operating-system">Operating System</a></li>
+									<li><a class="footer-2-link" href="/blog">Uptime Guarantee</a></li>
+									<li><a class="footer-2-link" href="/ddos">DDOS Protection</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-6" bis_skin_checked="1">
+							<div class="ps-xl-5" bis_skin_checked="1">
+								<h6 class="text-white fs-16 mt-3 mb-8">
+									Company Info
+								</h6>
+								<ul class="list-unstyled d-flex flex-column gap-2">
+									<li><a class="footer-2-link" href="/about-us">About Us</a></li>
+									<li><a class="footer-2-link" href="/blog">Partners</a></li>
+									<li><a class="footer-2-link" href="/blog">Knowledgebase</a></li>
+									<li><a class="footer-2-link" href="/contact">Contact Us</a></li>
+									<li><a class="footer-2-link" href="/blog">News</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="mt-20" bis_skin_checked="1">
+						<div class="d-flex align-items-center justify-content-between flex-wrap gap-5 pt-5 border-top border-light border-opacity-10" bis_skin_checked="1">
+							<p class="text-white mb-0 fs-14">
+								© 2024 Nuage Paris. All rights reserved
+							</p>
+							<div class="d-inline-flex align-items-center justify-content-center gap-4 flex-wrap" bis_skin_checked="1">
+								<a class="footer-2-link" href="/terms">Terms &amp; Condition</a>
+								<a class="footer-2-link" href="/privacy">Privacy Policy</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
